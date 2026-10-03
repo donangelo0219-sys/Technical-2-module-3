@@ -1,3 +1,42 @@
-body {
-    background-color: yellow;
+nav a:hover {
+    background-color: var(--color-primary);
+    color: white;
 }
+
+nav a:focus {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+}
+body {
+    background-color: rgba(13, 76, 23, 0.411);
+    color: #1a1a1a;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body:hover {
+    background-color: rgba(13, 76, 23, 0.411);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
