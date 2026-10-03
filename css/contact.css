@@ -1,0 +1,41 @@
+nav a:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+nav a:focus {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+}
+body {
+    background-color: rgba(13, 76, 23, 0.411);
+    color: #1a1a1a;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body:hover {
+    background-color: rgba(13, 76, 23, 0.411);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
